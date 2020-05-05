@@ -1,55 +1,54 @@
 body {
-  font-family: 'Roboto', sans-serif;
-  font-size: 17px;
-  font-weight: 300;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.82;
-  letter-spacing: normal;
-  color: #282828;
+	font-family: 'Roboto', sans-serif;
+	font-size: 17px;
+	font-weight: 300;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.82;
+	letter-spacing: normal;
+	color: #282828;
 }
 h3{
 	color:#0d0d6d;
 	font-size: 29px;
 	font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
-	margin:0px 0px 39px;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: normal;
+	letter-spacing: normal;
+	margin: 0px 0px 39px 0px;
 }
 h4{
 	margin:30px 0px 20px;
 }
 p{
-  font-size: 18px;
-  font-weight: 300;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.83;
-  letter-spacing: normal;
-  color: #282828;
+	font-size: 18px;
+	font-weight: 300;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.83;
+	letter-spacing: normal;
+	color: #282828;
 }
 .container{
 	margin-top:60px;
 }
 .img-head {
 	margin-top:30px;
-	height: 526px;
-  object-fit: contain;
 }
 .demo-left h3{
-  font-size: 43px;
+	font-size: 43px;
 	margin-bottom:10px;
+	margin-top:70px;
 }
 .demo-left p{
 	font-size: 29px;
-  font-weight: 300;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  color: #333333;}
+	font-weight: 300;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: normal;
+	letter-spacing: normal;
+	color: #333333;}
 .btn-primary{
 	width: 230px;
 	height: 46px;
@@ -58,18 +57,18 @@ p{
 	font-size: 20px;
 	font-weight: 300;
 	margin:20px 0px;}
+.benefit p{
+	margin: 0px 0px 70px 0px;	
+}
 .feature p{
 	margin:20px 0px 80px;
 	font-size: 16px;
-  color: #000000;
+ 	color: #000000;
 	font-weight: 400;
-}
-.img-test{
-	margin:40px 0px;
 }
 .logo-elearning{
 	margin:60px 0px 15px;
-  object-fit: contain;
+ 	object-fit: contain;
 	
 }
 .footer p{
@@ -78,6 +77,7 @@ p{
 .address ul {
 	width:70%;
 	margin:auto;
+	padding:0px;
 }
 .address ul li { 
 	list-style:none;
@@ -116,3 +116,63 @@ p{
 	margin: auto 10px auto 0px;
 	opacity: 0.3;
 }
+
+@media (max-width: 575.98px) { 
+	.address ul {
+		width:70% !important;
+	}
+}
+
+@media (max-width: 991.98px) { 
+	h3{		
+		font-size: 28px;
+	}
+	p{
+		font-size: 18px;
+	}
+	.container{
+		padding: 0px 20px;
+	}
+	.container .img-head{
+		padding: 0px 15px;
+	}
+	.demo-left h3 {
+	    font-size: 30px;
+	    margin-bottom: 0px;
+	    margin-top: 0;
+	}
+	.demo-left p {
+		font-size:24px;
+	    margin-bottom: 0px;
+	}
+	a.btn{
+		width: 180px;
+		height: 40px;
+		border-radius: 4px;
+		background-color: #0d0d6d;
+		font-size: 18px;
+		font-weight: 300;
+		margin: 10px 0px 80px;
+	}
+	.demo-right{
+		text-align: center;
+	}
+	.demo-right h3{
+		margin: 0px 0px 19px 0px;
+	}
+	.feature p {
+	    margin: 10px 0px 40px;
+	    font-size: 20px;
+	}
+	.benefit h4{
+		font-size: 20px;
+	}
+	.address ul {
+		width:40%;
+	}
+}
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
